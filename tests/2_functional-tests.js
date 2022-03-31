@@ -66,7 +66,7 @@ suite('Functional Tests', function () {
 });
 
 const Browser = require('zombie');
-Browser.site = 'https://stamiesie.github.io/boilerplate-mochachai/';
+Browser.site = 'https://qa-testing-freecodecamp.herokuapp.com/';
 
 suite('Functional Tests with Zombie.js', function () {
   this.timeout(5000);
